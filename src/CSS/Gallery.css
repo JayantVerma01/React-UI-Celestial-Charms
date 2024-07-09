@@ -1,0 +1,56 @@
+.gallery-main {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.gallery-heading {
+  font-weight: 600;
+  font-size: 3.9rem;
+  color: #2c3e50;
+}
+
+.view-btn {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #2C3E50;
+  text-decoration: underline;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.view-btn:hover {
+  text-decoration: underline;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-col {
+  margin-bottom: 20px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .gallery-heading {
+    font-size: 3.9rem;
+  }
+
+  .view-btn {
+    font-size: 0.875rem;
+  }
+}

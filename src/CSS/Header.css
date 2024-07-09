@@ -1,0 +1,130 @@
+.header-custom {
+  width: 100%;
+  height: auto;
+  background-image: url("../Assets/backgound.png");
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.ring-image {
+  width: 554px;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+  margin-left: -24px;
+  border-radius: 0px 183.5px 183.5px 0px;
+  border: 12px solid #2c3e50;
+}
+
+.right-container {
+  background: rgba(245, 245, 245, 0.6);
+  border-radius: 16px;
+  padding: 20px;
+  width: 475px;
+}
+
+.head {
+  display: flex;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.25;
+  color: #2c3e50;
+}
+
+.header-custom h1 {
+  font-family: "Satisfy", cursive;
+  display: flex;
+  font-size: 2rem;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.header-custom h2 {
+  display: flex;
+  text-align: justify;
+  line-height: 1.25;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.header-custom p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  text-align: justify;
+  color: #2c3e50;
+}
+
+.shop-now-container,
+.social-icons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shop-now-button {
+  width: 600px;
+  text-align: left;
+  background: #2c3e50;
+  font-size: 1.2rem;
+  border-radius: 27px 0px 0px 27px;
+}
+
+.shop-now-button:hover {
+  background-color: #1e272e;
+}
+
+.social-icons {
+  width: 450px;
+  margin-top: 10px;
+  text-align: left;
+  background: #2c3e50;
+  border-radius: 27px 0px 0px 27px;
+}
+
+.social-icon {
+  margin: 5px 8px;
+  height: 31px;
+  width: 31px;
+}
+
+@media (max-width: 991px){
+
+  .outer{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-custom {
+    padding: 10px 0;
+  }
+
+  .head,
+  .header-custom h2,
+  .header-custom p {
+    font-size: 1.5rem;
+  }
+
+  .ring-image {
+    width: 100%;
+    height: 360px;
+    border-radius: 0px 183.5px 183.5px 0px;
+    border: 12px solid #2c3e50;
+  }
+
+  .shop-now-button,
+  .social-icons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

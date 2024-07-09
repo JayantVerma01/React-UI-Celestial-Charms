@@ -1,0 +1,139 @@
+.product-container {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.product-container h1 {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 3.9rem;
+  line-height: 3rem;
+  color: #2c3e50;
+  text-align: left;
+}
+
+.view-all {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration-line: underline;
+  color: #2c3e50;
+  margin-top: 3rem;
+  white-space: nowrap;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+.product-card {
+  margin-top: 50px;
+  width: 100%;
+  background: #e8e8e8;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.card-d {
+  padding: 20px;
+}
+
+.product-card .card-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #2c3e50;
+  text-align: left;
+}
+
+.product-card .desc {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: justify;
+  color: #2c3e50;
+}
+
+.product-card .price {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-align: left;
+}
+
+.product-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.product-card .add-to-cart {
+  background-color: transparent;
+  border: 1px solid #2c3e50;
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 48%;
+  padding: 0.5rem;
+}
+
+.product-card .buy-now {
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 48%;
+  padding: 0.5rem;
+  color: white;
+}
+
+.product-card .add-to-cart:hover,
+.product-card .buy-now:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .product-container h1 {
+    font-size: 3.9rem;
+    line-height: 2.5rem;
+  }
+
+  .product-card {
+    margin-top: 1rem;
+  }
+
+  .product-card img {
+    height: auto;
+  }
+
+  .product-card .card-title {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .product-card .desc {
+    font-size: 0.9rem;
+  }
+
+  .product-card .price {
+    font-size: 1.2rem;
+  }
+
+  .product-card .add-to-cart,
+  .product-card .buy-now {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+
+  .view-all {
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+  }
+}
