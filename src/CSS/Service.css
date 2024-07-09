@@ -151,3 +151,9 @@
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 392px){
+  .service-main h1{
+    font-size: 2rem;
+  }
+}

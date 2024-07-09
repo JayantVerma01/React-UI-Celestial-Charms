@@ -47,10 +47,17 @@
 
 @media (max-width: 768px) {
   .gallery-heading {
-    font-size: 3.9rem;
+    font-size: 3rem;
   }
 
   .view-btn {
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 392px){
+  .gallery-heading{
+    font-size: 2rem;
+    padding-left: 20px;
   }
 }

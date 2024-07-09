@@ -128,3 +128,67 @@
     height: 30px;
   }
 }
+
+@media (max-width: 392px) {
+  .header-custom {
+    padding: 5px 0;
+  }
+
+  .ring-image {
+    width: 100%;
+    height: auto;
+    /* margin-left: 0; */
+  }
+
+  .right-container {
+    width: 100%;
+    padding: 10px;
+    background: rgba(245, 245, 245, 0.9);
+    border-radius: 10px;
+  }
+
+  .head {
+    font-size: 1.2rem;
+  }
+
+  .header-custom h1 {
+    font-size: 1.5rem;
+    padding-left: 5px;
+  }
+
+  .header-custom h2 {
+    font-size: 1.2rem;
+  }
+
+  .header-custom p {
+    font-size: 1rem;
+  }
+
+  .shop-now-container,
+  .social-icons-container {
+    justify-content: center;
+  }
+
+  .shop-now-button,
+  .social-icons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .shop-now-button {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .social-icons {
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .social-icon {
+    margin: 3px 5px;
+    height: 25px;
+    width: 25px;
+  }
+}

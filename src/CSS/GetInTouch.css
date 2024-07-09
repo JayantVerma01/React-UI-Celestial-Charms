@@ -131,3 +131,17 @@
     padding: 0.5rem;
   }
 }
+
+@media (max-width: 392px){
+  .git-head{
+    font-size: 2rem;
+    padding-left: 20px;
+  }
+  .icon , 
+  .StP ,
+  .img-qr,
+  .payment-icons
+  {
+    display: none;
+  }
+}
